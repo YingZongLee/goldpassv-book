@@ -1,0 +1,14 @@
+/* ==============
+  Pagination
+===================*/
+.page-link {
+  color: $danger;
+}
+.page-item.active .page-link {
+  background-color: $danger;
+  border-color: $danger;
+}
+.page-link:focus, .page-link:hover {
+  color: $dark;
+  background-color: $gray-200;
+}

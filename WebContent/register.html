@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+<title>Yung's Website</title>
+<meta content="Yung's Website" name="Yung's Website" />
+<meta content="Yung's Website" name="Yung" />
+<link rel="shortcut icon" href="assets/images/favicon.ico">
+
+<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="assets/css/icons.css" rel="stylesheet" type="text/css">
+<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+
+<!-- Facebook -->
+<link href="assets/app/f_custom.css" rel="stylesheet" type="text/css">
+<!-- Google -->
+<!-- <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css"> -->
+</head>
+
+<body>
+
+	<!-- Begin page -->
+	<div class="wrapper-page">
+		<div class="card mb-0">
+			<div class="card-body">
+
+				<h3 class="text-center m-0">
+					<a href="login.html" class="logo logo-admin"><img
+						src="assets/images/logo-horizon-bold.png" height="100" alt="logo"></a>
+				</h3>
+
+				<div class="p-3">
+					<form class="form-horizontal" action="#">
+
+						<div class="form-group">
+							<label for="username">Name</label> <input type="text"
+								class="form-control" id="username" placeholder="Your full name" autocomplete="new-username">
+						</div>
+
+						<div class="form-group">
+							<label for="useremail">Email Address</label> <input type="email"
+								class="form-control" id="useremail"
+								placeholder="name@company.com" autocomplete="new-email">
+						</div>
+
+						<div class="form-group">
+							<label for="userpassword">Password</label> <input type="password"
+								class="form-control" id="userpassword" placeholder="password" autocomplete="new-password">
+						</div>
+
+						<div class="form-group mb-0 row">
+							<div class="col-12 m-t-10 text-center">
+								<button
+									class="btn btn-dark w-md waves-effect waves-light form-control"
+									type="submit">Create your account</button>
+							</div>
+						</div>
+
+						<div class="form-group mb-0">
+							<div class="col-12 m-t-10 text-center">
+								<p class="text-muted mb-0">OR SIGN IN WITH</p>
+							</div>
+						</div>
+
+						<div class="form-group mb-0 row">
+							<div class="col-6 m-t-10 text-center">
+								<div id="google-signin"></div>
+							</div>
+							<div class="col-6 m-t-10 text-center">
+								<button class="btn fb-signin"><i class="fab fa-facebook-square fb-icon"></i> 登入</button>
+							</div>
+						</div>
+
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<div class="m-t-20 text-center">
+			<p>
+				Already have an account ? <a href="login.html" class="text-primary">
+					Login </a>
+			</p>
+		</div>
+
+	</div>
+
+	<!-- jQuery  -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/js/jquery.slimscroll.js"></script>
+	<script src="assets/js/waves.min.js"></script>
+
+	<script src="plugins/jquery-sparkline/jquery.sparkline.min.js"></script>
+
+	<!-- App js -->
+	<script src="assets/js/app.js"></script>
+	
+	<!-- Google -->
+	<script src="https://apis.google.com/js/platform.js" async defer></script>
+	<script src="https://apis.google.com/js/api:client.js"></script>
+	<script src="assets/app/g_custom.js"></script>
+	
+	<!-- Facebook -->
+	<script src="assets/app/f_custom.js"></script>
+	<script async defer src="https://connect.facebook.net/zh_TW/sdk.js"></script>
+</body>
+</html>

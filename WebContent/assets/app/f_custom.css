@@ -1,0 +1,10 @@
+@charset "UTF-8";
+.fb-signin { 
+	background : #4267b2;
+	border : 1px solid #4267b2;
+	color : #fff;
+	width : 180px;
+	height : 36px;
+	border-radius : 4px;
+	white-space: nowrap;
+}
